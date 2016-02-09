@@ -1,0 +1,25 @@
+{
+  "name": "plugins/graphdesigner_plugin",
+  "description": "Parent class for GraphDesigner plugins.",
+  "type": "library",
+  "homepage": "https://github.com/PHPAlgorithms/GraphDesigner_Plugin",
+  "keywords": ["graph", "graphdesigner", "designer", "plugin"],
+  "authors": [
+    {
+      "name": "ventaquil",
+      "email": "ventaquil@outlook.com"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Plugins\\": "src/",
+    }
+  },
+  "require": {
+    "php": ">=5.4.0",
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  }
+}
